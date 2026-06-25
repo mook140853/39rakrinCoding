@@ -1,16 +1,19 @@
-print("โปรแกรมคำนวณคะแนนรวม \n")
-mathematics= int(input("คะแนนวิชาคณิตศาสตร์") )
-science= int(input("คะแนนวิชาวิทยาศาสตร์") )
-thai = int(input("คะแนนวิชาภาษาไทย") )
-total_point = (science +mathematics + thai)
-average = total_point /3
-if average <60:
-    print("ดีเยี่ยม")
-elif average <80:
-    print("ดีมาก")
-elif average <40:
-    print("ผ่าน")
-print(" by mook 4/4" )
-print(" thank you")
+print("โปรแกรมรับค่าความเร็วแล้วตรวจสอบความผิดปกติ \n")
 
+km  = int(input("กิโลเมตร"))
 
+h = int(input("ความเร็ว"))
+
+รับค่าความเร็วรถ =("กิโลเมตร+ความเร็ว")
+
+print("รับค่าความเร็วรถ/n")
+
+if  รับค่าความเร็วรถ >=80:
+    print("ปลอดภัย")
+
+elif รับค่าความเร็วรถ >=81-100:
+    print("เตือน")
+elif รับค่าความเร็วรถ <120:
+    
+
+    print("ผิดกฎหมาย")
